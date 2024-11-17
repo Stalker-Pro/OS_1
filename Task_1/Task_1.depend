@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1731825631 source:d:\savedcodeblox\newtask\task_1\other.c
+	<stdlib.h>
+	<stdio.h>
+	<stdbool.h>
+	<unistd.h>
+	<pthread.h>
+
