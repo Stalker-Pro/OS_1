@@ -90,7 +90,7 @@ int main() {
   sigaddset(&blocked_mask, SIGHUP);
   sigprocmask(SIG_BLOCK, &blocked_mask, &orig_mask);
 
-  for (;;) {
+  while (1) {
     FD_ZERO(&readfds);
     FD_SET(server_socker_fd, &readfds);
 
